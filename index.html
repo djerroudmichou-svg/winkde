@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WinKDE OS - النسخة الرسمية</title>
+    <style>
+        :root {
+            --bg-color: #0a0d14;
+            --card-bg: #111522;
+            --accent-blue: #0078d4;
+            --accent-mediafire: #0070f3;
+            --text-main: #f0f3f9;
+            --text-muted: #8b98a9;
+            --border-color: #1e2638;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            line-height: 1.6;
+        }
+        header {
+            padding: 80px 20px;
+            background: linear-gradient(180deg, #161c2e 0%, #0a0d14 100%);
+            border-bottom: 1px solid var(--border-color);
+        }
+        h1 {
+            font-size: 3.5rem;
+            margin: 0 0 10px 0;
+            color: #ffffff;
+            letter-spacing: -1px;
+        }
+        .version {
+            background-color: var(--accent-blue);
+            color: white;
+            padding: 6px 18px;
+            border-radius: 20px;
+            font-size: 0.95rem;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        .lead-text {
+            font-size: 1.3rem;
+            color: var(--text-muted);
+            max-width: 700px;
+            margin: 0 auto 40px auto;
+        }
+        .btn-download {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background-color: var(--accent-mediafire);
+            color: white;
+            padding: 18px 45px;
+            font-size: 1.25rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 12px;
+            box-shadow: 0 8px 25px rgba(0, 112, 243, 0.3);
+            transition: all 0.3s ease;
+            border: 1px solid #3391ff;
+        }
+        .btn-download:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 30px rgba(0, 112, 243, 0.5);
+            background-color: #1a80ff;
+        }
+        .container {
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 40px;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+        .card {
+            background-color: var(--card-bg);
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+            text-align: right;
+            transition: border-color 0.3s ease;
+        }
+        .card:hover {
+            border-color: var(--accent-blue);
+        }
+        .card h3 {
+            color: #ffffff;
+            margin-top: 0;
+            font-size: 1.4rem;
+        }
+        .card p {
+            color: var(--text-muted);
+            margin-bottom: 0;
+            font-size: 0.95rem;
+        }
+        .dev-box {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 40px;
+            margin-top: 80px;
+            text-align: center;
+        }
+        .dev-title {
+            font-size: 1.5rem;
+            color: #ffffff;
+            margin-bottom: 5px;
+        }
+        .dev-sub {
+            color: var(--accent-blue);
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            letter-spacing: 2px;
+            margin-bottom: 25px;
+        }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+        .social-btn {
+            background-color: #1a2035;
+            color: white;
+            text-decoration: none;
+            padding: 10px 24px;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            border: 1px solid var(--border-color);
+            transition: all 0.2s ease;
+        }
+        .social-btn:hover {
+            background-color: var(--accent-blue);
+            border-color: #3391ff;
+        }
+        .emails {
+            display: inline-block;
+            text-align: left;
+            background-color: #0a0d14;
+            padding: 15px 25px;
+            border-radius: 8px;
+            border: 1px dashed var(--border-color);
+            font-family: monospace;
+            font-size: 0.95rem;
+        }
+        .emails span {
+            color: #ff7b72;
+        }
+        footer {
+            margin-top: 100px;
+            padding: 30px 20px;
+            border-top: 1px solid var(--border-color);
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>WinKDE OS</h1>
+        <div class="version">إصدار 1.0 (Achour Tech Pro Edition)</div>
+        <p class="lead-text">أول نظام لينكس جزائري مفرز ومحصن بالكامل للمستخدمين، يجمع بين صلابة واستقرار ديبيان وعصرنة وخفة الـ KDE Plasma!</p>
+        
+        <a href="رابط_ميديافاير_الخاص_بك_هنا" class="btn-download" target="_blank">
+            📥 تحميل النظام برابط مباشر (MediaFire Pro)
+        </a>
+    </header>
+
+    <div class="container">
+        <h2>الميزات الهندسيّة للنظام</h2>
+        <div class="features">
+            <div class="card">
+                <h3>🧠 ساس حديدي صلب</h3>
+                <p>مبني مباشرة من جذور Debian 12 Bookworm، النظام الأكثر استقراراً في العالم لحماية عتادك وضمان أداء طيران.</p>
+            </div>
+            <div class="card">
+                <h3>🔄 تحديثات آمنة ومحمية</h3>
+                <p>عزل كامل للتخصيص والوجتس لداخل قالب النظام المركزي؛ حدّث حزمك الأمنية بكل أمان دون خوف من تخريب الواجهة.</p>
+            </div>
+            <div class="card">
+                <h3>💽 إقلاع هجين متوافق</h3>
+                <p>بناء هجين (Hybrid Bootloader) يدعم الإقلاع على الأجهزة القديمة والحديثة (BIOS / UEFI) بكفاءة استثنائية.</p>
+            </div>
+        </div>
+
+        <div class="dev-box">
+            <div class="dev-title">Achour Djerroud</div>
+            <div class="dev-sub">Lead Systems Architect & Creator</div>
+            
+            <div class="social-links">
+                <a href="https://www.instagram.com/administrateur_0" target="_blank" class="social-btn">Instagram</a>
+                <a href="https://www.facebook.com/achour.djerroud/?viewas=100000686899395" target="_blank" class="social-btn">Facebook</a>
+            </div>
+
+            <div class="emails">
+                <div>✉️ <span>Official:</span> technology1082@gmail.com</div>
+                <div style="margin-top: 5px;">💼 <span>Business:</span> achour@pxdmail.net</div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 WinKDE OS. جميع الحقوق محفوظة للمطور عاشور جيرود (Achour Tech Pro).</p>
+    </footer>
+
+</body>
+</html>
