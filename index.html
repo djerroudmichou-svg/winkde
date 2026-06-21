@@ -4,63 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- Meta Description غنية ومحسنة لظهور أفضل في البحث -->
-    <meta name="description" content="تحميل WinKDE OS - توزيعة لينكس جزائرية خفيفة وسريعة للأجهزة الضعيفة. نظام تشغيل مبني على Debian 12 مع واجهة KDE Plasma، يعمل على Pentium 4 و 648 ميجابايت رام فقط. بديل ممتاز لويندوز للأجهزة القديمة.">
-    
-    <!-- كلمات مفتاحية مستهدفة بالعربية والإنجليزية والفرنسية -->
-    <meta name="keywords" content="WinKDE, WinKDE OS, تحميل لينكس, توزيعة لينكس, نظام لينكس, لينكس جزائري, اخف توزيعة لينكس, توزيعة خفيفة, Linux distribution, lightweight Linux, Debian 12, KDE Plasma, Algerian Linux, تحميل نظام تشغيل, بديل ويندوز, نظام تشغيل خفيف, توزيعة للمبتدئين, pentium 4 linux, low spec linux, 648 MB RAM, revive old PC, تحميل توزيعة لينكس, أفضل توزيعة لينكس للأجهزة الضعيفة, توزيعة عربية, توزيعة جزائرية, WinKDE تحميل, نظام تشغيل مجاني, free operating system, open source, توزيعة مفتوحة المصدر">
-    
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+    <!-- Meta Tags -->
+    <meta name="description" content="Download WinKDE OS - Lightweight Algerian Linux distribution for low-end devices. Supports Windows applications via Wine. Runs on Pentium 4 with 648 MB RAM.">
+    <meta name="keywords" content="WinKDE, WinKDE OS, lightweight Linux, Debian 12, KDE Plasma, Algerian Linux, Wine support, Windows apps on Linux, pentium 4 linux, low spec linux, 648 MB RAM">
+    <meta name="robots" content="index, follow">
     <meta name="author" content="Achour Djerroud">
     
-    <!-- Open Graph / Facebook -->
-    <meta property="og:title" content="WinKDE OS | توزيعة لينكس خفيفة وسريعة للأجهزة الضعيفة">
-    <meta property="og:description" content="تحميل WinKDE OS - توزيعة لينكس جزائرية خفيفة تعمل على Pentium 4 و 648 ميجابايت رام. بديل مثالي لويندوز للأجهزة القديمة.">
+    <meta property="og:title" content="WinKDE OS | Lightweight Linux with Windows App Support">
+    <meta property="og:description" content="Download WinKDE OS - Algerian Linux distribution for low-end devices with full Wine support.">
     <meta property="og:type" content="website">
     
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="WinKDE OS | توزيعة لينكس خفيفة وسريعة">
-    <meta name="twitter:description" content="تحميل WinKDE OS - توزيعة لينكس جزائرية خفيفة للأجهزة الضعيفة.">
-    
-    <!-- Schema.org structured data for search engines -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
-        "name": "WinKDE OS",
-        "operatingSystem": "Linux",
-        "applicationCategory": "OperatingSystem",
-        "description": "توزيعة لينكس جزائرية خفيفة وسريعة للأجهزة الضعيفة، مبنية على Debian 12 مع واجهة KDE Plasma",
-        "author": {
-            "@type": "Person",
-            "name": "Achour Djerroud"
-        },
-        "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "USD"
-        }
-    }
-    </script>
-    
-    <title>WinKDE OS | توزيعة لينكس خفيفة وسريعة للأجهزة الضعيفة</title>
+    <title>WinKDE OS | Lightweight Linux for Low-End Devices</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700;800;900&family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
 
         :root {
             --primary-blue: #0078d4;
             --primary-purple: #7c3aed;
             --primary-gradient: linear-gradient(135deg, #0078d4, #7c3aed, #4f46e5);
-            --primary-dark: #005a9e;
-            --primary-light-blue: #4da3ff;
-            --primary-light-purple: #a78bfa;
             --glass-bg: rgba(8, 14, 30, 0.7);
             --glass-border: rgba(0, 120, 212, 0.35);
             --text-white: #f0f5ff;
@@ -69,8 +32,6 @@
             --shadow-purple: 0 20px 60px rgba(124, 58, 237, 0.2);
             --radius-xl: 48px;
             --radius-lg: 36px;
-            --radius-md: 28px;
-            --radius-sm: 18px;
         }
 
         body {
@@ -82,6 +43,7 @@
             line-height: 1.6;
         }
 
+        /* Background Animation */
         .bg-scene {
             position: fixed;
             inset: 0;
@@ -89,7 +51,6 @@
             background: radial-gradient(ellipse at 20% 30%, #0c1a3a, #050811);
             overflow: hidden;
         }
-
         .bg-scene .orb {
             position: absolute;
             border-radius: 50%;
@@ -97,37 +58,26 @@
             opacity: 0.25;
             animation: orbFloat 25s ease-in-out infinite;
         }
-
         .bg-scene .orb:nth-child(1) {
-            width: 700px;
-            height: 700px;
+            width: 700px; height: 700px;
             background: rgba(0, 120, 212, 0.15);
-            top: -200px;
-            right: -150px;
-            animation-delay: 0s;
+            top: -200px; right: -150px;
         }
-
         .bg-scene .orb:nth-child(2) {
-            width: 600px;
-            height: 600px;
+            width: 600px; height: 600px;
             background: rgba(124, 58, 237, 0.12);
-            bottom: -200px;
-            left: -150px;
+            bottom: -200px; left: -150px;
             animation-delay: -8s;
             animation-duration: 28s;
         }
-
         .bg-scene .orb:nth-child(3) {
-            width: 500px;
-            height: 500px;
+            width: 500px; height: 500px;
             background: rgba(79, 70, 229, 0.1);
-            top: 50%;
-            left: 50%;
+            top: 50%; left: 50%;
             transform: translate(-50%, -50%);
             animation-delay: -16s;
             animation-duration: 32s;
         }
-
         @keyframes orbFloat {
             0%, 100% { transform: translate(0, 0) scale(1); }
             33% { transform: translate(100px, -80px) scale(1.3); }
@@ -145,13 +95,13 @@
             perspective: 1200px;
             animation: gridMove 50s linear infinite;
         }
-
         @keyframes gridMove {
             0% { transform: rotateX(0deg) rotateY(0deg) translateZ(0); }
             50% { transform: rotateX(3deg) rotateY(4deg) translateZ(30px); }
             100% { transform: rotateX(0deg) rotateY(0deg) translateZ(0); }
         }
 
+        /* Navbar */
         nav {
             background: rgba(5, 10, 22, 0.88);
             backdrop-filter: blur(28px) saturate(1.4);
@@ -166,11 +116,7 @@
             flex-wrap: wrap;
             transition: all 0.5s;
         }
-
-        nav:hover {
-            border-bottom-color: var(--primary-purple);
-            box-shadow: 0 4px 50px rgba(124, 58, 237, 0.15);
-        }
+        nav:hover { border-bottom-color: var(--primary-purple); }
 
         .logo {
             font-size: 2.1rem;
@@ -182,18 +128,14 @@
             display: flex;
             align-items: center;
             gap: 14px;
-            letter-spacing: -0.5px;
         }
-
         .logo i {
             background: none;
-            -webkit-background-clip: unset;
             color: var(--primary-blue);
             font-size: 2rem;
             filter: drop-shadow(0 0 30px rgba(0, 120, 212, 0.3));
             animation: logoPulse 3.5s ease-in-out infinite;
         }
-
         @keyframes logoPulse {
             0%, 100% { filter: drop-shadow(0 0 20px rgba(0, 120, 212, 0.3)); }
             50% { filter: drop-shadow(0 0 50px rgba(124, 58, 237, 0.5)); }
@@ -211,16 +153,15 @@
             transition: all 0.4s;
             font-size: 0.95rem;
         }
-
         .lang-selector select:hover {
             border-color: var(--primary-purple);
             box-shadow: 0 0 50px rgba(124, 58, 237, 0.2);
-            transform: scale(1.03);
         }
 
+        /* Hero */
         .hero {
             text-align: center;
-            padding: 7rem 2rem 5rem;
+            padding: 6rem 2rem 4rem;
             position: relative;
             z-index: 2;
         }
@@ -241,7 +182,6 @@
             color: #b8d0ff;
             transition: all 0.4s;
         }
-
         .hero-badge:hover {
             border-color: var(--primary-purple);
             box-shadow: 0 0 50px rgba(124, 58, 237, 0.2);
@@ -258,10 +198,8 @@
             letter-spacing: -2px;
             margin-bottom: 1.2rem;
             animation: fadeUp 0.9s ease;
-            text-shadow: 0 0 120px rgba(124, 58, 237, 0.15);
             position: relative;
         }
-
         .hero-title::after {
             content: '';
             position: absolute;
@@ -274,12 +212,10 @@
             border-radius: 4px;
             animation: titleLine 3s ease-in-out infinite;
         }
-
         @keyframes titleLine {
             0%, 100% { width: 100px; opacity: 0.5; }
             50% { width: 250px; opacity: 1; }
         }
-
         @keyframes fadeUp {
             from { opacity: 0; transform: translateY(50px); }
             to { opacity: 1; transform: translateY(0); }
@@ -301,7 +237,6 @@
             flex-wrap: wrap;
             margin-bottom: 2.5rem;
         }
-
         .hero-stats .stat {
             display: flex;
             align-items: center;
@@ -313,10 +248,7 @@
             font-size: 0.9rem;
             color: #b8ccff;
         }
-
-        .hero-stats .stat i {
-            color: var(--primary-light-purple);
-        }
+        .hero-stats .stat i { color: var(--primary-light-purple); }
 
         .btn-download {
             display: inline-flex;
@@ -335,7 +267,6 @@
             position: relative;
             overflow: hidden;
         }
-
         .btn-download::before {
             content: '';
             position: absolute;
@@ -346,28 +277,23 @@
             background: radial-gradient(circle, rgba(255,255,255,0.12) 0%, transparent 60%);
             animation: btnShine 5s ease-in-out infinite;
         }
-
         @keyframes btnShine {
             0%, 100% { transform: translateX(-100%) rotate(25deg); }
             50% { transform: translateX(100%) rotate(25deg); }
         }
-
         .btn-download:hover {
             transform: translateY(-10px) scale(1.05);
             box-shadow: 0 40px 80px rgba(0, 120, 212, 0.5), 0 40px 80px rgba(124, 58, 237, 0.3);
             background: linear-gradient(135deg, #1a85ff, #6d28d9, #6366f1);
         }
-
         .btn-download i {
             font-size: 1.5rem;
             animation: downloadBounce 2.5s ease-in-out infinite;
         }
-
         @keyframes downloadBounce {
             0%, 100% { transform: translateY(0); }
             50% { transform: translateY(-5px); }
         }
-
         .btn-download .sub-text {
             font-size: 0.7rem;
             font-weight: 400;
@@ -399,7 +325,6 @@
             color: transparent;
             position: relative;
         }
-
         .section-header::after {
             content: '';
             position: absolute;
@@ -411,7 +336,6 @@
             background: linear-gradient(90deg, transparent, var(--primary-blue), var(--primary-purple), transparent);
             border-radius: 4px;
         }
-
         .section-header i {
             background: linear-gradient(135deg, var(--primary-blue), var(--primary-purple));
             -webkit-background-clip: text;
@@ -420,10 +344,11 @@
             font-size: 2.2rem;
         }
 
+        /* Features Grid - 4 cards */
         .features-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 32px;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 28px;
             margin-bottom: 20px;
         }
 
@@ -432,13 +357,12 @@
             backdrop-filter: blur(22px);
             border: 1px solid var(--glass-border);
             border-radius: var(--radius-xl);
-            padding: 40px 32px;
+            padding: 35px 28px;
             transition: all 0.6s cubic-bezier(0.2, 0.9, 0.4, 1.1);
             text-align: center;
             position: relative;
             overflow: hidden;
         }
-
         .feature-card::before {
             content: '';
             position: absolute;
@@ -452,7 +376,6 @@
             mask-composite: exclude;
             pointer-events: none;
         }
-
         .feature-card:hover {
             transform: translateY(-15px) scale(1.02);
             border-color: var(--primary-purple);
@@ -461,18 +384,17 @@
         }
 
         .feature-card .icon-wrap {
-            width: 85px;
-            height: 85px;
-            margin: 0 auto 1.5rem;
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 1.2rem;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 2.8rem;
+            font-size: 2.5rem;
             transition: all 0.6s;
             position: relative;
         }
-
         .feature-card .icon-wrap::after {
             content: '';
             position: absolute;
@@ -481,63 +403,83 @@
             border: 1px solid rgba(124, 58, 237, 0.2);
             animation: iconRing 5s ease-in-out infinite;
         }
-
         @keyframes iconRing {
             0%, 100% { transform: scale(1); opacity: 0.4; }
             50% { transform: scale(1.25); opacity: 0; }
         }
-
         .feature-card:hover .icon-wrap {
             transform: scale(1.1) rotate(-5deg);
             box-shadow: 0 0 70px rgba(124, 58, 237, 0.2);
         }
-
-        .feature-card:nth-child(1) .icon-wrap {
-            background: linear-gradient(135deg, rgba(0, 120, 212, 0.15), rgba(0, 120, 212, 0.3));
-            color: var(--primary-light-blue);
-        }
-
-        .feature-card:nth-child(2) .icon-wrap {
-            background: linear-gradient(135deg, rgba(124, 58, 237, 0.15), rgba(124, 58, 237, 0.3));
-            color: var(--primary-light-purple);
-        }
-
-        .feature-card:nth-child(3) .icon-wrap {
-            background: linear-gradient(135deg, rgba(16, 185, 129, 0.15), rgba(16, 185, 129, 0.3));
-            color: #34d399;
-        }
-
-        .feature-card:nth-child(1):hover .icon-wrap {
-            background: linear-gradient(135deg, rgba(0, 120, 212, 0.3), rgba(0, 120, 212, 0.5));
-        }
-
-        .feature-card:nth-child(2):hover .icon-wrap {
-            background: linear-gradient(135deg, rgba(124, 58, 237, 0.3), rgba(124, 58, 237, 0.5));
-        }
-
-        .feature-card:nth-child(3):hover .icon-wrap {
-            background: linear-gradient(135deg, rgba(16, 185, 129, 0.3), rgba(16, 185, 129, 0.5));
-        }
+        .feature-card:nth-child(1) .icon-wrap { background: linear-gradient(135deg, rgba(0,120,212,0.15), rgba(0,120,212,0.3)); color: var(--primary-light-blue); }
+        .feature-card:nth-child(2) .icon-wrap { background: linear-gradient(135deg, rgba(124,58,237,0.15), rgba(124,58,237,0.3)); color: var(--primary-light-purple); }
+        .feature-card:nth-child(3) .icon-wrap { background: linear-gradient(135deg, rgba(16,185,129,0.15), rgba(16,185,129,0.3)); color: #34d399; }
+        .feature-card:nth-child(4) .icon-wrap { background: linear-gradient(135deg, rgba(236,72,153,0.15), rgba(236,72,153,0.3)); color: #ec4899; }
 
         .feature-card h3 {
-            font-size: 1.6rem;
-            margin-bottom: 0.9rem;
+            font-size: 1.4rem;
+            margin-bottom: 0.8rem;
             font-weight: 700;
         }
-
         .feature-card p {
             color: var(--text-muted);
-            line-height: 1.7;
-            font-size: 0.98rem;
+            line-height: 1.6;
+            font-size: 0.95rem;
         }
 
+        /* Windows Compatibility Badge */
+        .windows-compat {
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border);
+            border-radius: var(--radius-xl);
+            padding: 30px 40px;
+            margin: 30px 0 20px;
+            text-align: center;
+        }
+        .windows-compat h3 {
+            font-size: 1.8rem;
+            margin-bottom: 0.8rem;
+            background: linear-gradient(135deg, #ffffff, #a78bfa);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .windows-compat p {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .windows-compat .badges {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+        .windows-compat .badges span {
+            background: rgba(0, 120, 212, 0.15);
+            border: 1px solid rgba(124, 58, 237, 0.2);
+            padding: 6px 20px;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            color: #b8ccff;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .windows-compat .badges span i {
+            color: #3b82f6;
+        }
+
+        /* System Requirements */
         .req-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
             gap: 34px;
             margin: 35px 0;
         }
-
         .req-card {
             background: rgba(6, 12, 26, 0.8);
             backdrop-filter: blur(20px);
@@ -548,7 +490,6 @@
             position: relative;
             overflow: hidden;
         }
-
         .req-card::before {
             content: '';
             position: absolute;
@@ -560,11 +501,7 @@
             opacity: 0;
             transition: opacity 0.5s;
         }
-
-        .req-card:hover::before {
-            opacity: 1;
-        }
-
+        .req-card:hover::before { opacity: 1; }
         .req-card:hover {
             border-color: var(--primary-purple);
             box-shadow: var(--shadow-glow), var(--shadow-purple);
@@ -578,7 +515,6 @@
             color: transparent;
             border-bottom-color: #ffaa44;
         }
-
         .req-card.rec .req-head {
             background: linear-gradient(135deg, #34d399, #10b981);
             -webkit-background-clip: text;
@@ -586,7 +522,6 @@
             color: transparent;
             border-bottom-color: #34d399;
         }
-
         .req-head {
             font-size: 1.7rem;
             font-weight: 700;
@@ -597,12 +532,7 @@
             align-items: center;
             gap: 14px;
         }
-
-        .req-head i {
-            background: none;
-            -webkit-background-clip: unset;
-            color: var(--text-white);
-        }
+        .req-head i { color: var(--text-white); }
 
         .req-line {
             display: flex;
@@ -611,13 +541,11 @@
             border-bottom: 1px solid rgba(70, 100, 150, 0.12);
             transition: all 0.3s;
         }
-
         .req-line:hover {
             border-color: rgba(124, 58, 237, 0.3);
             padding-left: 12px;
             padding-right: 12px;
         }
-
         .req-label {
             font-weight: 600;
             color: #d0e0ff;
@@ -626,16 +554,13 @@
             gap: 12px;
             font-size: 0.98rem;
         }
-
         .req-label i {
             background: linear-gradient(135deg, var(--primary-blue), var(--primary-purple));
             -webkit-background-clip: text;
             background-clip: text;
             color: transparent;
             width: 24px;
-            font-size: 1.1rem;
         }
-
         .req-value {
             color: #9bb4e0;
             font-weight: 500;
@@ -644,6 +569,39 @@
             font-size: 0.95rem;
         }
 
+        /* Screenshot Section - Organized */
+        .screenshot-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 30px 0;
+        }
+        .screenshot-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            border-radius: var(--radius-xl);
+            border: 1px solid var(--glass-border);
+            padding: 20px;
+            text-align: center;
+            transition: all 0.4s;
+        }
+        .screenshot-card:hover {
+            border-color: var(--primary-purple);
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-purple);
+        }
+        .screenshot-card img {
+            width: 100%;
+            border-radius: var(--radius-lg);
+            border: 1px solid rgba(255,255,255,0.05);
+        }
+        .screenshot-card .caption {
+            margin-top: 12px;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        /* Developer Section */
         .dev-section {
             background: linear-gradient(145deg, rgba(15, 25, 55, 0.95), rgba(8, 14, 35, 0.98));
             border-radius: var(--radius-xl);
@@ -655,7 +613,6 @@
             position: relative;
             overflow: hidden;
         }
-
         .dev-section::before {
             content: '';
             position: absolute;
@@ -666,7 +623,6 @@
             background: radial-gradient(circle, rgba(124,58,237,0.08), transparent 70%);
             animation: devGlow 12s ease-in-out infinite;
         }
-
         @keyframes devGlow {
             0%, 100% { transform: translate(0, 0) scale(1); }
             50% { transform: translate(-50px, 40px) scale(1.2); }
@@ -689,12 +645,10 @@
             border: 3px solid rgba(255,255,255,0.08);
             animation: avatarGlow 4s ease-in-out infinite;
         }
-
         @keyframes avatarGlow {
             0%, 100% { box-shadow: 0 0 60px rgba(0, 120, 212, 0.3); }
             50% { box-shadow: 0 0 100px rgba(124, 58, 237, 0.5); }
         }
-
         .dev-avatar::after {
             content: '';
             position: absolute;
@@ -703,7 +657,6 @@
             border: 1px solid rgba(124, 58, 237, 0.25);
             animation: avatarRing 5s ease-in-out infinite;
         }
-
         @keyframes avatarRing {
             0%, 100% { transform: scale(1); opacity: 0.4; }
             50% { transform: scale(1.2); opacity: 0; }
@@ -719,7 +672,6 @@
             position: relative;
             z-index: 1;
         }
-
         .dev-role {
             background: linear-gradient(135deg, var(--primary-light-blue), var(--primary-light-purple));
             -webkit-background-clip: text;
@@ -732,7 +684,6 @@
             z-index: 1;
             font-size: 1.1rem;
         }
-
         .dev-badge {
             display: inline-block;
             background: rgba(0, 120, 212, 0.15);
@@ -745,7 +696,6 @@
             position: relative;
             z-index: 1;
         }
-
         .social-links a {
             background: rgba(15, 26, 50, 0.9);
             color: white;
@@ -760,14 +710,12 @@
             position: relative;
             z-index: 1;
         }
-
         .social-links a:hover {
             background: linear-gradient(135deg, var(--primary-blue), var(--primary-purple));
             transform: scale(1.08);
             border-color: white;
             box-shadow: 0 0 50px rgba(124, 58, 237, 0.3);
         }
-
         .email-box {
             margin-top: 32px;
             background: rgba(0, 0, 0, 0.4);
@@ -780,18 +728,15 @@
             border: 1px solid rgba(255,255,255,0.05);
             transition: all 0.4s;
         }
-
         .email-box:hover {
             border-color: rgba(124, 58, 237, 0.3);
             box-shadow: 0 0 40px rgba(124, 58, 237, 0.1);
         }
-
         .email-box div {
             margin: 6px 0;
             color: #c5d5ff;
             font-size: 1rem;
         }
-
         .email-box span {
             background: linear-gradient(135deg, #ffaa77, #fbbf24);
             -webkit-background-clip: text;
@@ -799,7 +744,6 @@
             color: transparent;
             font-weight: 700;
         }
-
         .email-box i {
             color: var(--primary-light-purple);
             margin-right: 6px;
@@ -820,11 +764,10 @@
             .btn-download { font-size: 1rem; padding: 0.9rem 1.8rem; }
             .dev-section { padding: 30px 20px; }
             .hero { padding: 4rem 1.2rem; }
-            .hero-title::after { width: 60px; }
-            .hero-desc { font-size: 1.1rem; }
             .req-grid { grid-template-columns: 1fr; }
             .hero-stats { gap: 12px; }
             .hero-stats .stat { font-size: 0.8rem; padding: 6px 14px; }
+            .screenshot-section { grid-template-columns: 1fr; }
         }
 
         @media (max-width: 480px) {
@@ -862,22 +805,23 @@
 
 <section class="hero">
     <div class="hero-badge" id="badgeText">
-        <i class="fas fa-bolt"></i> Léger et Rapide pour les PC Faibles | v1.0.2
+        <i class="fas fa-bolt"></i> Light & Fast for Low-End Devices | v1.0.2
     </div>
     <h1 class="hero-title" id="mainTitle">WinKDE OS</h1>
     <p class="hero-desc" id="heroDesc">
-        Une distribution Linux algérienne conçue spécialement pour les appareils faibles, alliant légèreté et performances avec une touche esthétique unique.
+        An Algerian Linux distribution designed for low-end devices, combining lightweight performance with full Windows application support via Wine.
     </p>
     <div class="hero-stats">
         <span class="stat"><i class="fas fa-microchip"></i> Pentium 4+</span>
         <span class="stat"><i class="fas fa-memory"></i> 648 MB RAM</span>
         <span class="stat"><i class="fas fa-hdd"></i> 15 GB</span>
         <span class="stat"><i class="fas fa-linux"></i> Debian 12</span>
+        <span class="stat"><i class="fab fa-windows"></i> Wine Support</span>
     </div>
-    <a href="https://www.mediafire.com/file/wu5z8i1skihqe6z/WinKDE_OS+1.0.2_amd64.iso/file" class="btn-download" id="downloadBtn" target="_blank">
+    <a href="https://www.mediafire.com/file/ogqynbdbn2t4ftj/WinKDE_OS_1.0.2_amd64.iso/file" class="btn-download" id="downloadBtn" target="_blank">
         <i class="fas fa-download"></i>
         <span>
-            <span id="downloadText">Télécharger l'ISO</span>
+            <span id="downloadText">Download ISO</span>
             <span class="sub-text">Direct Link - MediaFire</span>
         </span>
     </a>
@@ -885,50 +829,91 @@
 
 <div class="container">
 
+    <!-- Windows Compatibility Section -->
+    <div class="windows-compat">
+        <h3><i class="fab fa-windows"></i> Run Windows Applications Seamlessly</h3>
+        <p>
+            WinKDE OS comes with full <strong>Wine & Proton</strong> support, allowing you to run your favorite Windows applications 
+            from <strong>Windows 98</strong> to <strong>Windows 10</strong> with excellent performance and compatibility.
+        </p>
+        <div class="badges">
+            <span><i class="fab fa-windows"></i> Windows 98</span>
+            <span><i class="fab fa-windows"></i> Windows XP</span>
+            <span><i class="fab fa-windows"></i> Windows 7</span>
+            <span><i class="fab fa-windows"></i> Windows 8.1</span>
+            <span><i class="fab fa-windows"></i> Windows 10</span>
+            <span><i class="fas fa-wine-bottle"></i> Wine 9.0</span>
+            <span><i class="fas fa-steam"></i> Proton</span>
+        </div>
+    </div>
+
     <div class="section-header">
         <i class="fas fa-gem"></i>
-        <h2 id="featuresTitle">Fonctionnalités Principales</h2>
+        <h2 id="featuresTitle">Core Features</h2>
         <i class="fas fa-gem"></i>
     </div>
 
     <div class="features-grid">
         <div class="feature-card">
             <div class="icon-wrap"><i class="fas fa-rocket"></i></div>
-            <h3 id="f1Title">⚡ Léger et Rapide</h3>
-            <p id="f1Desc">Conçu pour les appareils faibles, consommant peu de ressources avec des performances impressionnantes.</p>
+            <h3 id="f1Title">⚡ Light & Fast</h3>
+            <p id="f1Desc">Designed for low-end devices, consuming minimal resources with impressive performance.</p>
         </div>
         <div class="feature-card">
             <div class="icon-wrap"><i class="fas fa-shield-alt"></i></div>
-            <h3 id="f2Title">🔄 Mises à jour sécurisées</h3>
-            <p id="f2Desc">Protection complète des personnalisations, mettez à jour sans affecter vos paramètres.</p>
+            <h3 id="f2Title">🔄 Secure Updates</h3>
+            <p id="f2Desc">Full customization protection, update safely without affecting your settings.</p>
         </div>
         <div class="feature-card">
             <div class="icon-wrap"><i class="fas fa-universal-access"></i></div>
-            <h3 id="f3Title">💽 Compatibilité Totale</h3>
-            <p id="f3Desc">Prend en charge les anciens et nouveaux appareils avec des performances exceptionnelles.</p>
+            <h3 id="f3Title">💽 Full Compatibility</h3>
+            <p id="f3Desc">Supports both old and modern devices with exceptional performance.</p>
+        </div>
+        <div class="feature-card">
+            <div class="icon-wrap"><i class="fab fa-windows"></i></div>
+            <h3 id="f4Title">🪟 Windows App Support</h3>
+            <p id="f4Desc">Full Wine & Proton support to run Windows applications from 98 to 10 seamlessly.</p>
+        </div>
+    </div>
+
+    <!-- Screenshots Section - Organized -->
+    <div class="section-header" style="margin-top: 60px;">
+        <i class="fas fa-images"></i>
+        <h2 id="screenshotTitle">Screenshots</h2>
+        <i class="fas fa-images"></i>
+    </div>
+
+    <div class="screenshot-section">
+        <div class="screenshot-card">
+            <img src="winkde_desktop.png" alt="WinKDE OS Desktop" onerror="this.style.display='none'">
+            <div class="caption" id="screenshot1Caption">Desktop - KDE Plasma Interface</div>
+        </div>
+        <div class="screenshot-card">
+            <img src="winkde.png" alt="WinKDE OS Logo" onerror="this.style.display='none'">
+            <div class="caption" id="screenshot2Caption">WinKDE OS Logo</div>
         </div>
     </div>
 
     <div class="section-header">
         <i class="fas fa-microchip"></i>
-        <h2 id="reqTitle">Configuration système</h2>
+        <h2 id="reqTitle">System Requirements</h2>
         <i class="fas fa-microchip"></i>
     </div>
 
     <div class="req-grid">
         <div class="req-card min">
-            <div class="req-head"><i class="fas fa-tachometer-alt"></i> <span id="minTitle">Minimale</span></div>
-            <div class="req-line"><span class="req-label"><i class="fas fa-microchip"></i> <span id="minCpu">Processeur (CPU)</span></span><span class="req-value">Pentium 4 or higher (64-bit)</span></div>
-            <div class="req-line"><span class="req-label"><i class="fas fa-memory"></i> <span id="minRam">Mémoire (RAM)</span></span><span class="req-value">648 MB</span></div>
-            <div class="req-line"><span class="req-label"><i class="fas fa-hdd"></i> <span id="minStorage">Stockage</span></span><span class="req-value">15 GB</span></div>
-            <div class="req-line"><span class="req-label"><i class="fas fa-tv"></i> <span id="minGpu">Carte graphique (GPU)</span></span><span class="req-value">Not required (optional)</span></div>
+            <div class="req-head"><i class="fas fa-tachometer-alt"></i> <span id="minTitle">Minimum</span></div>
+            <div class="req-line"><span class="req-label"><i class="fas fa-microchip"></i> <span id="minCpu">Processor (CPU)</span></span><span class="req-value">Pentium 4 or higher (64-bit)</span></div>
+            <div class="req-line"><span class="req-label"><i class="fas fa-memory"></i> <span id="minRam">Memory (RAM)</span></span><span class="req-value">648 MB</span></div>
+            <div class="req-line"><span class="req-label"><i class="fas fa-hdd"></i> <span id="minStorage">Storage</span></span><span class="req-value">15 GB</span></div>
+            <div class="req-line"><span class="req-label"><i class="fas fa-tv"></i> <span id="minGpu">Graphics (GPU)</span></span><span class="req-value">Not required (optional)</span></div>
         </div>
         <div class="req-card rec">
-            <div class="req-head"><i class="fas fa-star"></i> <span id="recTitle">Recommandée</span></div>
-            <div class="req-line"><span class="req-label"><i class="fas fa-microchip"></i> <span id="recCpu">Processeur (CPU)</span></span><span class="req-value">Core 2 Duo / Athlon 64 X2+</span></div>
-            <div class="req-line"><span class="req-label"><i class="fas fa-memory"></i> <span id="recRam">Mémoire (RAM)</span></span><span class="req-value">2 GB or higher</span></div>
-            <div class="req-line"><span class="req-label"><i class="fas fa-database"></i> <span id="recStorage">Stockage</span></span><span class="req-value">30 - 60 GB (personal preference)</span></div>
-            <div class="req-line"><span class="req-label"><i class="fas fa-tv"></i> <span id="recGpu">Carte graphique (GPU)</span></span><span class="req-value">Optional (Intel HD / AMD Radeon)</span></div>
+            <div class="req-head"><i class="fas fa-star"></i> <span id="recTitle">Recommended</span></div>
+            <div class="req-line"><span class="req-label"><i class="fas fa-microchip"></i> <span id="recCpu">Processor (CPU)</span></span><span class="req-value">Core 2 Duo / Athlon 64 X2+</span></div>
+            <div class="req-line"><span class="req-label"><i class="fas fa-memory"></i> <span id="recRam">Memory (RAM)</span></span><span class="req-value">2 GB or higher</span></div>
+            <div class="req-line"><span class="req-label"><i class="fas fa-database"></i> <span id="recStorage">Storage</span></span><span class="req-value">30 - 60 GB (personal preference)</span></div>
+            <div class="req-line"><span class="req-label"><i class="fas fa-tv"></i> <span id="recGpu">Graphics (GPU)</span></span><span class="req-value">Optional (Intel HD / AMD Radeon)</span></div>
         </div>
     </div>
 
@@ -936,7 +921,7 @@
         <div class="dev-avatar"><i class="fas fa-user-astronaut"></i></div>
         <div class="dev-name">Achour Djerroud</div>
         <div class="dev-badge"><i class="fas fa-graduation-cap"></i> Self-Taught Developer 🚀</div>
-        <div class="dev-role" id="devRole">Développeur & Concepteur Système</div>
+        <div class="dev-role" id="devRole">Developer & System Designer</div>
         <div class="social-links">
             <a href="https://www.instagram.com/administrateur_0" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
             <a href="https://www.facebook.com/achour.djerroud/?viewas=100000686899395" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a>
@@ -949,14 +934,15 @@
 
 </div>
 
-<footer id="footerText">© 2026 WinKDE OS. Fait avec ❤️ par Achour Djerroud 🚀</footer>
+<footer id="footerText">© 2026 WinKDE OS. Made with ❤️ by Achour Djerroud 🚀</footer>
 
 <script>
+    // Complete translations - NO ARABIC in EN/FR
     const translations = {
         ar: {
             badgeText: "⚡ خفيف وسريع للأجهزة الضعيفة | الإصدار 1.0.2",
             mainTitle: "WinKDE OS",
-            heroDesc: "نظام لينكس جزائري مصمم خصيصاً للأجهزة الضعيفة، يجمع بين خفة الوزن والأداء العالي مع لمسات جمالية فريدة.",
+            heroDesc: "توزيعة لينكس جزائرية مصممة خصيصاً للأجهزة الضعيفة، تجمع بين خفة الوزن والأداء العالي مع دعم كامل لتشغيل تطبيقات ويندوز عبر Wine.",
             downloadText: "تحميل النظام",
             featuresTitle: "الميزات الأساسية",
             f1Title: "⚡ خفيف وسريع",
@@ -965,6 +951,11 @@
             f2Desc: "حماية كاملة للتخصيصات، حدّث النظام دون التأثير على إعداداتك.",
             f3Title: "💽 توافق كامل",
             f3Desc: "يدعم جميع الأجهزة القديمة والحديثة مع أداء استثنائي.",
+            f4Title: "🪟 تشغيل تطبيقات ويندوز",
+            f4Desc: "يدعم Wine & Proton لتشغيل تطبيقات وألعاب ويندوز من 98 إلى 10 بسلاسة.",
+            screenshotTitle: "صور النظام",
+            screenshot1Caption: "سطح المكتب - واجهة KDE Plasma",
+            screenshot2Caption: "شعار WinKDE OS",
             reqTitle: "متطلبات النظام",
             minTitle: "الحد الأدنى",
             recTitle: "الموصى به",
@@ -978,7 +969,7 @@
         en: {
             badgeText: "⚡ Light & Fast for Low-End Devices | v1.0.2",
             mainTitle: "WinKDE OS",
-            heroDesc: "An Algerian Linux distribution designed specifically for low-end devices, combining lightweight performance with unique aesthetics.",
+            heroDesc: "An Algerian Linux distribution designed for low-end devices, combining lightweight performance with full Windows application support via Wine.",
             downloadText: "Download ISO",
             featuresTitle: "Core Features",
             f1Title: "⚡ Light & Fast",
@@ -987,6 +978,11 @@
             f2Desc: "Full customization protection, update safely without affecting your settings.",
             f3Title: "💽 Full Compatibility",
             f3Desc: "Supports both old and modern devices with exceptional performance.",
+            f4Title: "🪟 Windows App Support",
+            f4Desc: "Full Wine & Proton support to run Windows applications from 98 to 10 seamlessly.",
+            screenshotTitle: "Screenshots",
+            screenshot1Caption: "Desktop - KDE Plasma Interface",
+            screenshot2Caption: "WinKDE OS Logo",
             reqTitle: "System Requirements",
             minTitle: "Minimum",
             recTitle: "Recommended",
@@ -1000,7 +996,7 @@
         fr: {
             badgeText: "⚡ Léger et Rapide pour les PC Faibles | v1.0.2",
             mainTitle: "WinKDE OS",
-            heroDesc: "Une distribution Linux algérienne conçue spécialement pour les appareils faibles, alliant légèreté et performances avec une touche esthétique unique.",
+            heroDesc: "Une distribution Linux algérienne conçue pour les appareils faibles, alliant légèreté et performances avec un support complet des applications Windows via Wine.",
             downloadText: "Télécharger l'ISO",
             featuresTitle: "Fonctionnalités Principales",
             f1Title: "⚡ Léger et Rapide",
@@ -1009,6 +1005,11 @@
             f2Desc: "Protection complète des personnalisations, mettez à jour sans affecter vos paramètres.",
             f3Title: "💽 Compatibilité Totale",
             f3Desc: "Prend en charge les anciens et nouveaux appareils avec des performances exceptionnelles.",
+            f4Title: "🪟 Support des applis Windows",
+            f4Desc: "Support complet Wine & Proton pour exécuter les applications Windows de 98 à 10.",
+            screenshotTitle: "Captures d'écran",
+            screenshot1Caption: "Bureau - Interface KDE Plasma",
+            screenshot2Caption: "Logo WinKDE OS",
             reqTitle: "Configuration système",
             minTitle: "Minimale",
             recTitle: "Recommandée",
