@@ -1,6 +1,18 @@
 # 🖥️ WinKDE OS - The Algerian Server Edition 🇩🇿
 
+<p align="center">
+  <img src="winkde.png" alt="WinKDE OS Logo" width="200">
+</p>
+
 **WinKDE OS** is a premium, ultra-optimized, and high-performance Linux distribution proudly engineered from the ground up as a 100% Algerian project. Built on top of the rock-solid and bulletproof foundation of **Debian** and combined with a heavily customized, lightweight **KDE Plasma** desktop environment, this operating system is crafted by **Achour Tech Pro** to deliver maximum speed, absolute stability, and low-resource consumption.
+
+---
+
+## 🖥️ Desktop Preview
+
+<p align="center">
+  <img src="winkde_desktop.png" alt="WinKDE OS Desktop" width="800">
+</p>
 
 ---
 
@@ -76,5 +88,5 @@ This project is open-source and available under the **GNU General Public License
 ---
 
 **Made with ❤️ in Algeria 🇩🇿 by Achour Djerroud (Achour Tech Pro)**
-## 🏷️ Search Engine Optimization (SEO) & GitHub Tags
 
+## 🏷️ Search Engine Optimization (SEO) & GitHub Tags
