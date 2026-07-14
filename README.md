@@ -18,6 +18,7 @@
 | **Base Distribution** | Debian 12 Bookworm |
 | **Desktop Environment** | KDE Plasma (Heavily Customized) |
 | **Boot Mode** | Hybrid (BIOS & UEFI) |
+| **Checksum (SHA-256)** | `f71360bc8f7c93e43a6d901bf9eb9d519bfa182f7c006734ef91b72e5071dfca` |
 
 ---
 
@@ -89,14 +90,15 @@ WinKDE OS is stripped of all useless packages (Bloatware) and compressed with ad
 
 ## 📥 Download & Installation
 
-### 🔗 **Official Website:** [https://djerroudmichou-svg.github.io/winkde/](https://djerroudmichou-svg.github.io/winkde/)
+### 🔗 **Official Website:** [https://achour-417414.web.app](https://achour-417414.web.app)
 
 ### Installation Steps:
 
 1. **Download** the WinKDE OS ISO image (~3.20 GB) from the official website.
-2. **Flash** the ISO to a USB flash drive (minimum 4 GB) using tools like **Rufus** or **Ventoy**.
-3. **Boot** into your machine via USB, and use the graphical wizard installer to safely install it standalone or side-by-side with your Windows system.
-4. **Follow** the on-screen instructions to complete the installation (takes approximately 10-15 minutes).
+2. **Verify** the ISO integrity using the SHA-256 checksum: `f71360bc8f7c93e43a6d901bf9eb9d519bfa182f7c006734ef91b72e5071dfca`
+3. **Flash** the ISO to a USB flash drive (minimum 4 GB) using tools like **Rufus** or **Ventoy**.
+4. **Boot** into your machine via USB, and use the graphical wizard installer to safely install it standalone or side-by-side with your Windows system.
+5. **Follow** the on-screen instructions to complete the installation (takes approximately 10-15 minutes).
 
 ---
 
@@ -107,8 +109,7 @@ WinKDE OS is stripped of all useless packages (Bloatware) and compressed with ad
 | **Official Email** | technology1082@gmail.com |
 | **Business Email** | achour@pxdmail.net |
 | **Viber** | +48 729 758 319 |
-| **Website** | [https://djerroudmichou-svg.github.io/winkde/](https://djerroudmichou-svg.github.io/winkde/) |
-| **GitHub** | [achour-tech-pro/WinKDE-OS](https://github.com/achour-tech-pro/WinKDE-OS) |
+| **Website** | [https://achour-417414.web.app](https://achour-417414.web.app) |
 
 ---
 
@@ -122,4 +123,89 @@ This project is open-source and available under the **GNU General Public License
 
 ---
 
-## 🏷️ SEO & GitHub Tags (Copy these for better discovery)
+## 🏷️ Keywords (SEO & GitHub Tags)
+
+### العربية (Arabic)
+
+وينكد وينكد أو إس عاشور تك برو نظام تشغيل جزائري اسرع نظام تشغيل جزائري اول نظام تشغيل جزائري اخف نظام تشغيل لينكس واجهة كيدي بلازما نظام تشغيل للاجهزة الضعيفة توزيعة جزائرية احسن توزيعة لينكس نظام تشغيل خفيف تحميل وينكد توزيعة خفيفة
+
+text
+
+### English
+winkde winkde os achour tech pro achour djerroud algerian operating system fastest algerian os first algerian os lightest linux os kde plasma os for weak devices best algerian linux distribution lightweight os download winkde
+
+text
+
+### Français (French)
+winkde winkde os achour tech pro achour djerroud système d'exploitation algérien le plus rapide système d'exploitation algérien premier système d'exploitation algérien système linux le plus léger kde plasma système pour appareils faibles meilleure distribution linux algérienne système d'exploitation léger télécharger winkde
+
+text
+
+### Deutsch (German)
+winkde winkde os achour tech pro achour djerroud algerisches betriebssystem schnellstes algerisches betriebssystem erstes algerisches betriebssystem leichtestes linux-betriebssystem kde plasma betriebssystem für schwache geräte beste algerische linux-distribution leichtes betriebssystem winkde herunterladen
+
+text
+
+### Español (Spanish)
+winkde winkde os achour tech pro achour djerroud sistema operativo argelino más rápido sistema operativo argelino primer sistema operativo argelino sistema linux más ligero kde plasma sistema para dispositivos débiles mejor distribución linux argelina sistema operativo ligero descargar winkde
+
+text
+
+### Italiano (Italian)
+winkde winkde os achour tech pro achour djerroud sistema operativo algerino più veloce sistema operativo algerino primo sistema operativo algerino sistema linux più leggero kde plasma sistema per dispositivi deboli migliore distribuzione linux algerina sistema operativo leggero scaricare winkde
+
+text
+
+### Türkçe (Turkish)
+winkde winkde os achour tech pro achour djerroud c ezayir işletim sistemi en hızlı cezayir işletim sistemi ilk cezayir işletim sistemi en hafif linux işletim sistemi kde plasma zayıf cihazlar için işletim sistemi en iyi cezayir linux dağıtımı hafif işletim sistemi winkde indir
+
+text
+
+### Русский (Russian)
+винкде винкде ос ачур тек про ачур джерруд алжирская операционная система самая быстрая алжирская ос первая алжирская ос самая легкая линукс ос kde plasma ос для слабых устройств лучший алжирский дистрибутив линукс легкая операционная система скачать винкде
+
+text
+
+### 中文 (Chinese)
+winkde winkde os achour tech pro achour djerroud 阿尔及利亚操作系统 最快的阿尔及利亚操作系统 第一个阿尔及利亚操作系统 最轻的Linux操作系统 KDE Plasma 弱设备操作系统 最佳阿尔及利亚Linux发行版 轻量级操作系统 下载winkde
+
+text
+
+### 日本語 (Japanese)
+winkde winkde os achour tech pro achour djerroud アルジェリアのオペレーティングシステム 最速のアルジェリアOS 最初のアルジェリアOS 最も軽いLinux OS KDE Plasma 弱いデバイス向けOS 最高のアルジェリアLinuxディストリビューション 軽量OS winkdeをダウンロード
+
+text
+
+### 한국어 (Korean)
+winkde winkde os achour tech pro achour djerroud 알제리 운영 체제 가장 빠른 알제리 OS 최초의 알제리 OS 가장 가벼운 리눅스 OS KDE Plasma 약한 기기용 OS 최고의 알제리 리눅스 배포판 경량 OS winkde 다운로드
+
+text
+
+---
+
+## 📊 Project Statistics
+
+| Category | Details |
+|----------|---------|
+| **Distribution Name** | WinKDE OS |
+| **Version** | 1.0.2 |
+| **Edition** | Algerian Server Edition |
+| **Base Distribution** | Debian 12 Bookworm |
+| **Desktop Environment** | KDE Plasma (Heavily Customized) |
+| **Architecture** | amd64 (64-bit) |
+| **ISO Size** | ~3.20 GB |
+| **SHA-256 Checksum** | `f71360bc8f7c93e43a6d901bf9eb9d519bfa182f7c006734ef91b72e5071dfca` |
+| **Minimum RAM** | 648 MB |
+| **Recommended RAM** | 2 GB+ |
+| **Minimum Storage** | 15 GB |
+| **Recommended Storage** | 30-60 GB |
+| **Minimum CPU** | Intel Celeron M / AMD Sempron (64-bit) |
+| **Recommended CPU** | Core 2 Duo / Athlon 64 X2+ |
+| **Windows Compatibility** | Wine 9.0 & Proton |
+| **License** | GNU GPL v3.0 |
+| **Developer** | Achour Djerroud (Achour Tech Pro) |
+| **Country** | Algeria 🇩🇿 |
+
+---
+
+**Made with ❤️ in Algeria 🇩🇿 by Achour Djerroud (Achour Tech Pro)**
