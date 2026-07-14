@@ -129,57 +129,47 @@ This project is open-source and available under the **GNU General Public License
 
 وينكد وينكد أو إس عاشور تك برو نظام تشغيل جزائري اسرع نظام تشغيل جزائري اول نظام تشغيل جزائري اخف نظام تشغيل لينكس واجهة كيدي بلازما نظام تشغيل للاجهزة الضعيفة توزيعة جزائرية احسن توزيعة لينكس نظام تشغيل خفيف تحميل وينكد توزيعة خفيفة
 
-text
+
 
 ### English
 winkde winkde os achour tech pro achour djerroud algerian operating system fastest algerian os first algerian os lightest linux os kde plasma os for weak devices best algerian linux distribution lightweight os download winkde
 
-text
 
 ### Français (French)
 winkde winkde os achour tech pro achour djerroud système d'exploitation algérien le plus rapide système d'exploitation algérien premier système d'exploitation algérien système linux le plus léger kde plasma système pour appareils faibles meilleure distribution linux algérienne système d'exploitation léger télécharger winkde
 
-text
 
 ### Deutsch (German)
 winkde winkde os achour tech pro achour djerroud algerisches betriebssystem schnellstes algerisches betriebssystem erstes algerisches betriebssystem leichtestes linux-betriebssystem kde plasma betriebssystem für schwache geräte beste algerische linux-distribution leichtes betriebssystem winkde herunterladen
 
-text
 
 ### Español (Spanish)
 winkde winkde os achour tech pro achour djerroud sistema operativo argelino más rápido sistema operativo argelino primer sistema operativo argelino sistema linux más ligero kde plasma sistema para dispositivos débiles mejor distribución linux argelina sistema operativo ligero descargar winkde
 
-text
 
 ### Italiano (Italian)
 winkde winkde os achour tech pro achour djerroud sistema operativo algerino più veloce sistema operativo algerino primo sistema operativo algerino sistema linux più leggero kde plasma sistema per dispositivi deboli migliore distribuzione linux algerina sistema operativo leggero scaricare winkde
 
-text
 
 ### Türkçe (Turkish)
 winkde winkde os achour tech pro achour djerroud c ezayir işletim sistemi en hızlı cezayir işletim sistemi ilk cezayir işletim sistemi en hafif linux işletim sistemi kde plasma zayıf cihazlar için işletim sistemi en iyi cezayir linux dağıtımı hafif işletim sistemi winkde indir
 
-text
 
 ### Русский (Russian)
 винкде винкде ос ачур тек про ачур джерруд алжирская операционная система самая быстрая алжирская ос первая алжирская ос самая легкая линукс ос kde plasma ос для слабых устройств лучший алжирский дистрибутив линукс легкая операционная система скачать винкде
 
-text
 
 ### 中文 (Chinese)
 winkde winkde os achour tech pro achour djerroud 阿尔及利亚操作系统 最快的阿尔及利亚操作系统 第一个阿尔及利亚操作系统 最轻的Linux操作系统 KDE Plasma 弱设备操作系统 最佳阿尔及利亚Linux发行版 轻量级操作系统 下载winkde
 
-text
 
 ### 日本語 (Japanese)
 winkde winkde os achour tech pro achour djerroud アルジェリアのオペレーティングシステム 最速のアルジェリアOS 最初のアルジェリアOS 最も軽いLinux OS KDE Plasma 弱いデバイス向けOS 最高のアルジェリアLinuxディストリビューション 軽量OS winkdeをダウンロード
 
-text
 
 ### 한국어 (Korean)
 winkde winkde os achour tech pro achour djerroud 알제리 운영 체제 가장 빠른 알제리 OS 최초의 알제리 OS 가장 가벼운 리눅스 OS KDE Plasma 약한 기기용 OS 최고의 알제리 리눅스 배포판 경량 OS winkde 다운로드
 
-text
 
 ---
 
